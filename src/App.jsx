@@ -60,7 +60,7 @@ function App() {
 
             <h1>
               Frontend Developer
-              <span>| React Developer</span>
+              <span>Building with React</span>
             </h1>
 
             <p className="hero-description">
