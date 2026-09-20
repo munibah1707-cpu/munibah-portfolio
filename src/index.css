@@ -259,6 +259,10 @@ a {
 
 .nav-links.menu-open {
   display: flex;
+  background: #f8f7f4;
+  border-top: 1px solid #dedbd5;
+  border-bottom: 1px solid #dedbd5;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
 }
 
 body.dark-mode .nav-links {
