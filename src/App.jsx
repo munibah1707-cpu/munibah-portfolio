@@ -11,6 +11,8 @@ function App() {
     return localStorage.getItem("theme") === "dark";
   });
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
   useEffect(() => {
     document.body.classList.toggle("dark-mode", darkMode);
     localStorage.setItem("theme", darkMode ? "dark" : "light");
@@ -24,14 +26,35 @@ function App() {
             MS.
           </a>
 
-          <div className="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-          </div>
+          <div className={`nav-links ${menuOpen ? "menu-open" : ""}`}>
+  <a href="#home" onClick={() => setMenuOpen(false)}>
+    Home
+  </a>
 
+  <a href="#about" onClick={() => setMenuOpen(false)}>
+    About
+  </a>
+
+  <a href="#skills" onClick={() => setMenuOpen(false)}>
+    Skills
+  </a>
+
+  <a href="#projects" onClick={() => setMenuOpen(false)}>
+    Projects
+  </a>
+
+  <a href="#contact" onClick={() => setMenuOpen(false)}>
+    Contact
+  </a>
+</div>
+<button
+  className="menu-toggle"
+  onClick={() => setMenuOpen(!menuOpen)}
+  aria-label="Toggle navigation menu"
+>
+  {menuOpen ? "✕" : "☰"}
+</button>
+          
           <div className="nav-actions">
             <button
               className="theme-toggle"
