@@ -1,0 +1,130 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <circle cx="250" cy="250" r="235" fill="#E9E0D4"/>
+
+  <!-- Hair behind -->
+  <path
+    d="M137 205C137 116 187 68 254 68C326 68 370 119 370 207V315C370 380 320 423 251 423C181 423 137 378 137 315V205Z"
+    fill="#3D302B"
+  />
+
+  <!-- Neck -->
+  <path
+    d="M213 325V382C213 398 196 405 178 414L250 457L322 414C304 405 287 398 287 382V325H213Z"
+    fill="#D99F7C"
+  />
+
+  <!-- Shirt -->
+  <path
+    d="M178 371C145 383 116 397 94 432C82 451 77 468 76 485H424C423 468 418 451 406 432C384 397 355 383 322 371C302 389 278 399 250 399C222 399 198 389 178 371Z"
+    fill="#8B7355"
+  />
+
+  <!-- Shirt detail -->
+  <path
+    d="M213 380L250 417L287 380"
+    stroke="#F4EEE7"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Face -->
+  <path
+    d="M169 190C169 139 204 104 251 104C298 104 333 139 333 190V255C333 311 299 349 251 349C203 349 169 311 169 255V190Z"
+    fill="#E2AA87"
+  />
+
+  <!-- Hair front -->
+  <path
+    d="M166 192C157 149 173 105 215 86C242 74 285 79 309 99C333 119 344 151 337 194C320 174 303 151 291 126C270 143 232 155 195 151C190 166 180 182 166 192Z"
+    fill="#3D302B"
+  />
+
+  <!-- Hair sides -->
+  <path
+    d="M169 185C149 207 145 255 159 295C165 313 176 327 190 337L191 271C178 244 176 215 169 185Z"
+    fill="#3D302B"
+  />
+
+  <path
+    d="M331 185C351 207 355 255 341 295C335 313 324 327 310 337L309 271C322 244 324 215 331 185Z"
+    fill="#3D302B"
+  />
+
+  <!-- Eyebrows -->
+  <path
+    d="M197 213C208 205 220 205 231 211"
+    stroke="#4A332A"
+    stroke-width="7"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M269 211C280 205 292 205 303 213"
+    stroke="#4A332A"
+    stroke-width="7"
+    stroke-linecap="round"
+  />
+
+  <!-- Eyes -->
+  <ellipse cx="216" cy="231" rx="8" ry="6" fill="#342722"/>
+  <ellipse cx="284" cy="231" rx="8" ry="6" fill="#342722"/>
+
+  <!-- Nose -->
+  <path
+    d="M247 229C244 244 241 255 247 259C251 262 256 261 260 258"
+    stroke="#B9775B"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <!-- Smile -->
+  <path
+    d="M226 279C239 289 261 289 274 279"
+    stroke="#8C4F48"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <!-- Earrings -->
+  <circle cx="169" cy="267" r="7" fill="#C4A06B"/>
+  <circle cx="331" cy="267" r="7" fill="#C4A06B"/>
+
+  <!-- Laptop -->
+  <path
+    d="M347 420H408L421 459H334L347 420Z"
+    fill="#D7D0C7"
+  />
+
+  <rect
+    x="351"
+    y="425"
+    width="52"
+    height="29"
+    rx="3"
+    fill="#4B4B4B"
+  />
+
+  <path
+    d="M326 462H429C433 462 436 466 436 470C436 473 433 475 429 475H326C322 475 319 473 319 470C319 466 322 462 326 462Z"
+    fill="#B9B1A8"
+  />
+
+  <!-- Small decorative sparkles -->
+  <path
+    d="M91 156V180M79 168H103"
+    stroke="#B79A75"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M395 117V141M383 129H407"
+    stroke="#B79A75"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+</svg>
