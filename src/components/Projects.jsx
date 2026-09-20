@@ -26,7 +26,7 @@ const otherProjects = [
     title: "Seat Availability Tracker",
     description:
       "A multi-page venue seat management SPA built with React, featuring real-time seat tracking, live REST API integration, and useReducer-based state management with custom hooks and per-route error boundaries.",
-    tech: ["React", "JavaScript"],
+     tech: ["React", "React Router", "Tailwind CSS"],
     github: "https://github.com/munibah1707-cpu/Seat-Availability-Tracker",
     live: "https://seat-availability-tracker-loyf.vercel.app/",
     image: "/projects/seat-availability.png",
